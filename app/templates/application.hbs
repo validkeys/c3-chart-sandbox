@@ -1,0 +1,18 @@
+<style type="text/css">
+  html,body { margin: 0; padding: 0; }
+  .my-line line {
+    stroke: rgba(255,255,255,.2);
+  }
+  .my-line text {
+    font-size: 9px;
+    font-family: "Arial";
+    text-transform: uppercase;
+    fill: rgba(255,255,255,.5);
+  }
+  .c3-bar {
+    stroke: none !important;
+  }
+</style>
+<div style="background: #5093e1; padding: 0; height: 420px;">
+  {{c3-chart data=data axis=axis legend=legend padding=padding bar=bar size=size grid=grid}}
+</div>
